@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url('https://thuthuatnhanh.com/wp-content/uploads/2021/12/background-Tet-nguyen-dan.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.container{
+    width: 50%;
+    
+    border: 2px solid gold;
+    border-radius: 2%;
+    margin: auto;
+    background-color: rgba(155, 59, 30, 0.651);
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 45%;
+    height: 140px;
+    border: 1px solid green;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: gold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+.title{
+    position: absolute;
+    top: 5px;
+    
+}
